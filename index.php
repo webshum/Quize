@@ -15,40 +15,12 @@
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 
-	<title>Дізнайтеся чи допоможе кінезітерапія від болю в попереку?</title>
-
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161957781-2"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-161957781-2');
-	</script>
-
-	<!-- Facebook Pixel Code -->
-	<script>
-		!function(f,b,e,v,n,t,s)
-		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-		n.queue=[];t=b.createElement(e);t.async=!0;
-		t.src=v;s=b.getElementsByTagName(e)[0];
-		s.parentNode.insertBefore(t,s)}(window, document,'script',
-		'https://connect.facebook.net/en_US/fbevents.js');
-		fbq('init', '351124760159980');
-		fbq('track', 'PageView');
-	</script>
-	<noscript>
-	  	<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id={351124760159980}&ev=PageView&noscript=1"/>
-	</noscript>
-	<!-- End Facebook Pixel Code -->
+	<title>Vac</title>
 </head>
 <body>
 
 <div class="quize">
-	<form action="amocrm.php" method="POST">
+	<form action="amo/amo.php" method="POST">
 		<!-- START -->
 		<div class="quize-start step-1 quize-fade quize-animation">
 			<div class="row">
@@ -59,32 +31,9 @@
 				<div class="text">
 					<!-- body -->
 					<div class="text-body">
-						<h1>Потрібна робота?</h1>
-						<p>Пройдіть короткий тест та отримайте можливість працювати в одному з найбільших дейтингових агенцій в Україні</p>
-
-						<a href="#" class="quize-btn quize-next"><span>Пройти</span></a>
-
-						<!-- <div class="bonus">
-							<p><b>ПОДАРУНКИ</b> ПІСЛЯ ПРОХОДЖЕННЯ ТЕСТУ:</p>
-							<div class="wrap">
-								<div class="bonus-item">
-									<img src="img/gift.png" alt="">
-									<p>2 додаткових заняття при <b>купівлі</b> абонементу</p>
-									<span class="ic-lock"></span>						
-								</div>
-
-								<div class="bonus-item">
-									<img src="img/gift.png" alt="">
-									<p>2 консультації <b>за ціною однієї.</b> Приходьте з рідними!</p>
-									<span class="ic-lock"></span>
-								</div>
-							</div>					
-						</div> -->
-					</div>
-
-					<!-- foot -->
-					<div class="text-foot">
-						<a href="tel:098 988 22 98">098 988 22 98</a>
+						<h1>Пройди тест и оставь заявку на работу!</h1>
+						<p>Работа! (не курсы и не обучение)</p>
+						<a href="#" class="quize-btn quize-next"><span>Пройти тест</span></a>
 					</div>
 				</div>
 			</div>			
@@ -96,32 +45,24 @@
 			<div class="wrap">
 				<div class="content">
 					<div class="quize-head">
-						<h2>Скільки вам років?</h2>
+						<h2>Хочешь зарабатывать от 2000$ в месяц?</h2>
 					</div>
 
 					<div class="quize-body" data-title="Крок 1">
 						<div class="row-2">
 							<label class="radio checked">
-								<input type="radio" name="step-1" value="18 - 23" class="quize-next">
+								<input type="radio" name="step-1" value="Да" class="quize-next">
 								<div class="inner">
 									<div class="input"></div>
-									<p>18 - 23</p>
+									<p>Да</p>
 								</div>							
 							</label>
 
 							<label class="radio">
-								<input type="radio" name="step-1" value="24 - 29" class="quize-next">
+								<input type="radio" name="close" value="Нет" class="quize-close">
 								<div class="inner">
 									<div class="input"></div>
-									<p>24 - 29</p>
-								</div>								
-							</label>
-
-							<label class="radio">
-								<input type="radio" name="step-1" value="30 - 33" class="quize-next">
-								<div class="inner">
-									<div class="input"></div>
-									<p>30 - 33</p>
+									<p>Нет</p>
 								</div>								
 							</label>
 						</div>
@@ -141,7 +82,7 @@
 					</div>
 				</div>
 
-				<aside>
+				<!-- <aside>
 					<div class="person">
 						<div class="inner">
 							<div class="avatar">
@@ -160,23 +101,7 @@
 							</div>						
 						</div>
 					</div>
-
-					<!-- <div class="bonus">
-						<div class="wrap">
-							<div class="bonus-item">
-								<img src="img/gift.png" alt="">
-								<p>2 додаткових заняття при <b>купівлі</b> абонементу</p>
-								<span class="ic-lock"></span>						
-							</div>
-
-							<div class="bonus-item">
-								<img src="img/gift.png" alt="">
-								<p>2 консультації <b>за ціною однієї.</b> Приходьте з рідними!</p>
-								<span class="ic-lock"></span>
-							</div>
-						</div>					
-					</div> -->
-				</aside>
+				</aside> -->
 			</div>
 		</div>
 		<!-- // STEP 2 -->
@@ -186,24 +111,32 @@
 			<div class="wrap">
 				<div class="content">
 					<div class="quize-head">
-						<h2>Чи є у вас досвід роботи у офісі?</h2>
+						<h2>Хочешь переехать в Киев?(Переезд и проживание оплачивается)</h2>
 					</div>
 
 					<div class="quize-body" data-title="Крок 2">
 						<div class="row-2">
 							<label class="radio checked">
-								<input type="radio" name="step-2" value="Так, є" class="quize-next">
+								<input type="radio" name="step-2" value="Да" class="quize-next">
 								<div class="inner">
 									<div class="input"></div>
-									<p>Так, є</p>
+									<p>Да</p>
 								</div>							
 							</label>
 
 							<label class="radio">
-								<input type="radio" name="step-2" value="Ні, немає" class="quize-next">
+								<input type="radio" name="close" value="Нет" class="quize-close">
 								<div class="inner">
 									<div class="input"></div>
-									<p>Ні, немає</p>
+									<p>Нет</p>
+								</div>								
+							</label>
+
+							<label class="radio">
+								<input type="radio" name="close" value="Хочу жить с мамой" class="quize-close">
+								<div class="inner">
+									<div class="input"></div>
+									<p>Хочу жить с мамой</p>
 								</div>								
 							</label>
 						</div>
@@ -223,7 +156,7 @@
 					</div>
 				</div>
 
-				<aside>
+				<!-- <aside>
 					<div class="person">
 						<div class="inner">
 							<div class="avatar">
@@ -242,23 +175,7 @@
 							</div>						
 						</div>
 					</div>
-
-					<!-- <div class="bonus">
-						<div class="wrap">
-							<div class="bonus-item">
-								<img src="img/gift.png" alt="">
-								<p>2 додаткових заняття при <b>купівлі</b> абонементу</p>
-								<span class="ic-lock"></span>						
-							</div>
-
-							<div class="bonus-item">
-								<img src="img/gift.png" alt="">
-								<p>2 консультації <b>за ціною однієї.</b> Приходьте з рідними!</p>
-								<span class="ic-lock"></span>
-							</div>
-						</div>					
-					</div> -->
-				</aside>
+				</aside> -->
 			</div>
 		</div>
 		<!-- // STEP 3 -->
@@ -268,40 +185,56 @@
 			<div class="wrap">
 				<div class="content">
 					<div class="quize-head">
-						<h2>Який графік роботи для вас зручний?</h2>
+						<h2>Сколько полных лет?</h2>
 					</div>
 
 					<div class="quize-body" data-title="Крок 3">
 						<div class="row-2">
 							<label class="radio checked">
-								<input type="radio" name="step-3" value="Повний робочий день" class="quize-next">
+								<input type="radio" name="step-3" value="18" class="quize-next">
 								<div class="inner">
 									<div class="input"></div>
-									<p>Повний робочий день</p>
+									<p>18</p>
 								</div>							
 							</label>
 
 							<label class="radio">
-								<input type="radio" name="step-3" value="Не повний робочий день" class="quize-next">
+								<input type="radio" name="step-3" value="20" class="quize-next">
 								<div class="inner">
 									<div class="input"></div>
-									<p>Не повний робочий день</p>
+									<p>20</p>
 								</div>								
 							</label>
 
 							<label class="radio checked">
-								<input type="radio" name="step-3" value="Позмінно" class="quize-next">
+								<input type="radio" name="step-3" value="22" class="quize-next">
 								<div class="inner">
 									<div class="input"></div>
-									<p>Позмінно</p>
+									<p>22</p>
 								</div>							
 							</label>
 
 							<label class="radio">
-								<input type="radio" name="step-3" value="Індивідуальний робочий графік" class="quize-next">
+								<input type="radio" name="step-3" value="19" class="quize-next">
 								<div class="inner">
 									<div class="input"></div>
-									<p>Індивідуальний робочий графік</p>
+									<p>19</p>
+								</div>								
+							</label>
+
+							<label class="radio">
+								<input type="radio" name="step-3" value="21" class="quize-next">
+								<div class="inner">
+									<div class="input"></div>
+									<p>21</p>
+								</div>								
+							</label>
+
+							<label class="radio">
+								<input type="radio" name="step-3" value="23" class="quize-next">
+								<div class="inner">
+									<div class="input"></div>
+									<p>23</p>
 								</div>								
 							</label>
 						</div>
@@ -321,7 +254,7 @@
 					</div>
 				</div>
 
-				<aside>
+				<!-- <aside>
 					<div class="person">
 						<div class="inner">
 							<div class="avatar">
@@ -340,67 +273,67 @@
 							</div>						
 						</div>
 					</div>
-
-					<!-- <div class="bonus">
-						<div class="wrap">
-							<div class="bonus-item">
-								<img src="img/gift.png" alt="">
-								<p>2 додаткових заняття при <b>купівлі</b> абонементу</p>
-								<span class="ic-lock"></span>						
-							</div>
-
-							<div class="bonus-item">
-								<img src="img/gift.png" alt="">
-								<p>2 консультації <b>за ціною однієї.</b> Приходьте з рідними!</p>
-								<span class="ic-lock"></span>
-							</div>
-						</div>					
-					</div> -->
-				</aside>
+				</aside> -->
 			</div>
 		</div>
 		<!-- // STEP 4 -->
 
 		<!-- STEP 5 -->
-		<div class="quize-main step step-5 quize-animation">
+		<div class="quize-main step step-5 checkbox-list quize-animation">
 			<div class="wrap">
 				<div class="content">
 					<div class="quize-head">
-						<h2>Який рівень доходу для вас буде комфортним?</h2>
+						<h2>Какой есть опыт работы?</h2>
 					</div>
 
 					<div class="quize-body" data-title="Крок 4">
 						<div class="row-2">
-							<label class="radio checked">
-								<input type="radio" name="step-4" value="20 000 - 25 000 грн" class="quize-next">
+							<label class="checkbox checked">
+								<input type="checkbox" name="step-4" value="Колл Центр" class="quize-next">
 								<div class="inner">
 									<div class="input"></div>
-									<p>20 000 - 25 000 грн</p>
+									<p>Колл Центр</p>
 								</div>							
 							</label>
 
-							<label class="radio">
-								<input type="radio" name="step-4" value="25 000 - 30 000 грн" class="quize-next">
+							<label class="checkbox">
+								<input type="checkbox" name="step-4" value="Форекс" class="quize-next">
 								<div class="inner">
 									<div class="input"></div>
-									<p>25 000 - 30 000 грн</p>
-								</div>								
-							</label>
-
-							<label class="radio checked">
-								<input type="radio" name="step-4" value="35 000 - 40 000 грн" class="quize-next">
-								<div class="inner">
-									<div class="input"></div>
-									<p>35 000 - 40 000 грн</p>
+									<p>Форекс</p>
 								</div>							
 							</label>
 
-							<label class="radio">
-								<input type="radio" name="step-4" value="Більше 40 000 грн" class="quize-next">
+							<label class="checkbox">
+								<input type="checkbox" name="step-4" value="Брачка" class="quize-next">
 								<div class="inner">
 									<div class="input"></div>
-									<p>Більше 40 000 грн</p>
-								</div>								
+									<p>Брачка</p>
+								</div>							
+							</label>
+
+							<label class="checkbox">
+								<input type="checkbox" name="step-4" value="Банк" class="quize-next">
+								<div class="inner">
+									<div class="input"></div>
+									<p>Банк</p>
+								</div>							
+							</label>
+
+							<label class="checkbox">
+								<input type="checkbox" name="step-4" value="Сбер" class="quize-next">
+								<div class="inner">
+									<div class="input"></div>
+									<p>Сбер</p>
+								</div>							
+							</label>
+
+							<label class="checkbox">
+								<input type="checkbox" name="step-4" value="Нету опыта" class="quize-next">
+								<div class="inner">
+									<div class="input"></div>
+									<p>Нету опыта</p>
+								</div>							
 							</label>
 						</div>
 					</div>
@@ -416,10 +349,14 @@
 						<a href="#" class="quize-back">
 							<svg viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" stroke-width="0" fill-rule="nonzero"></path></svg>
 						</a>
+
+						<a href="#" class="quize-forward">
+							<svg viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" stroke-width="0" fill-rule="nonzero"></path></svg>
+						</a>
 					</div>
 				</div>
 
-				<aside>
+				<!-- <aside>
 					<div class="person">
 						<div class="inner">
 							<div class="avatar">
@@ -438,50 +375,36 @@
 							</div>						
 						</div>
 					</div>
-
-					<!-- <div class="bonus">
-						<div class="wrap">
-							<div class="bonus-item">
-								<img src="img/gift.png" alt="">
-								<p>2 додаткових заняття при <b>купівлі</b> абонементу</p>
-								<span class="ic-lock"></span>						
-							</div>
-
-							<div class="bonus-item">
-								<img src="img/gift.png" alt="">
-								<p>2 консультації <b>за ціною однієї.</b> Приходьте з рідними!</p>
-								<span class="ic-lock"></span>
-							</div>
-						</div>					
-					</div> -->
-				</aside>
+				</aside> -->
 			</div>
 		</div>
-		<!-- // STEP 4 -->
+		<!-- // STEP 5 -->
 
 		<!-- STEP 6 -->
 		<div class="quize-main step step-6 quize-animation">
 			<div class="wrap">
 				<div class="content">
 					<div class="quize-head">
-						<h2>Чи готові ви працювати більше 4-х годин на день?</h2>
+						<h2>Холост или в отношениях?</h2>
 					</div>
 
 					<div class="quize-body" data-title="Крок 5">
 						<div class="row-2">
-							<label class="radio checked">
-								<input type="radio" name="step-5" value="Так" class="quize-next">
+							<label class="radio-image checked">
+								<img src="img/holost.webp" alt="">
+								<input type="radio" name="step-5" value="Холост" class="quize-next">
 								<div class="inner">
 									<div class="input"></div>
-									<p>Так</p>
+									<p>Холост</p>
 								</div>							
 							</label>
 
-							<label class="radio">
-								<input type="radio" name="step-5" value="Ні" class="quize-next">
+							<label class="radio-image">
+								<img src="img/merige.webp" alt="">
+								<input type="radio" name="step-5" value="В отношениях" class="quize-next">
 								<div class="inner">
 									<div class="input"></div>
-									<p>Ні</p>
+									<p>В отношениях</p>
 								</div>								
 							</label>
 						</div>
@@ -501,7 +424,7 @@
 					</div>
 				</div>
 
-				<aside>
+				<!-- <aside>
 					<div class="person">
 						<div class="inner">
 							<div class="avatar">
@@ -520,50 +443,128 @@
 							</div>						
 						</div>
 					</div>
-
-					<!-- <div class="bonus">
-						<div class="wrap">
-							<div class="bonus-item">
-								<img src="img/gift.png" alt="">
-								<p>2 додаткових заняття при <b>купівлі</b> абонементу</p>
-								<span class="ic-lock"></span>						
-							</div>
-
-							<div class="bonus-item">
-								<img src="img/gift.png" alt="">
-								<p>2 консультації <b>за ціною однієї.</b> Приходьте з рідними!</p>
-								<span class="ic-lock"></span>
-							</div>
-						</div>					
-					</div> -->
-				</aside>
+				</aside> -->
 			</div>
 		</div>
 		<!-- // STEP 6 -->
 
 		<!-- STEP 7 -->
-		<div class="quize-main step step-7 quize-animation">
+		<div class="quize-main step step-7 checkbox-list quize-animation">
 			<div class="wrap">
 				<div class="content">
 					<div class="quize-head">
-						<h2>Чи готові ви працювати більше 4-х годин на день?</h2>
+						<h2>Вреденые привычки?</h2>
 					</div>
 
 					<div class="quize-body" data-title="Крок 6">
 						<div class="row-2">
-							<label class="radio checked">
-								<input type="radio" name="step-6" value="Так" class="quize-next">
+							<label class="checkbox checked">
+								<input type="checkbox" name="step-6" value="Сигареты" class="quize-next">
 								<div class="inner">
 									<div class="input"></div>
-									<p>Так</p>
+									<p>Сигареты</p>
+								</div>							
+							</label>
+
+							<label class="checkbox">
+								<input type="checkbox" name="close" value="Наркотики" class="quize-close">
+								<div class="inner">
+									<div class="input"></div>
+									<p>Наркотики</p>
+								</div>							
+							</label>
+
+							<label class="checkbox">
+								<input type="checkbox" name="step-6" value="Нету" class="quize-next">
+								<div class="inner">
+									<div class="input"></div>
+									<p>Нету</p>
+								</div>							
+							</label>
+
+							<label class="checkbox">
+								<input type="checkbox" name="close" value="Мариванна" class="quize-close">
+								<div class="inner">
+									<div class="input"></div>
+									<p>Мариванна</p>
+								</div>							
+							</label>
+
+							<label class="checkbox">
+								<input type="checkbox" name="step-6" value="Алкоголь" class="quize-next">
+								<div class="inner">
+									<div class="input"></div>
+									<p>Алкоголь</p>
+								</div>							
+							</label>
+						</div>
+					</div>
+
+					<div class="quize-foot">
+						<div class="progress">
+							<div class="progress-info">Готово: <span>60%</span></div>
+							<div class="progress-bar">
+								<div class="track" style="width: 60%;"></div>
+							</div>
+						</div>
+
+						<a href="#" class="quize-back">
+							<svg viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" stroke-width="0" fill-rule="nonzero"></path></svg>
+						</a>
+
+						<a href="#" class="quize-forward">
+							<svg viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" stroke-width="0" fill-rule="nonzero"></path></svg>
+						</a>
+					</div>
+				</div>
+
+				<!-- <aside>
+					<div class="person">
+						<div class="inner">
+							<div class="avatar">
+								<img src="img/avatar.jpg" alt="">
+								<span></span>
+							</div>
+							<div>
+								<div class="name">Олександр</div>
+								<div class="profession">Ваш персональний менеджер</div>
+							</div>						
+						</div>
+
+						<div class="talk">
+							<div class="inner">
+								<p>Круті керівники, які завжди підтримують та допоможуть</p>
+							</div>						
+						</div>
+					</div>
+				</aside> -->
+			</div>
+		</div>
+		<!-- // STEP 7 -->
+
+		<!-- STEP 8 -->
+		<div class="quize-main step step-8 quize-animation">
+			<div class="wrap">
+				<div class="content">
+					<div class="quize-head">
+						<h2>Любишь общатся с людьми?</h2>
+					</div>
+
+					<div class="quize-body" data-title="Крок 7">
+						<div class="row-2">
+							<label class="radio checked">
+								<input type="radio" name="step-7" value="Да" class="quize-next">
+								<div class="inner">
+									<div class="input"></div>
+									<p>Да</p>
 								</div>							
 							</label>
 
 							<label class="radio">
-								<input type="radio" name="step-6" value="Ні" class="quize-next">
+								<input type="radio" name="close" value="Нет" class="quize-close">
 								<div class="inner">
 									<div class="input"></div>
-									<p>Ні</p>
+									<p>Нет</p>
 								</div>								
 							</label>
 						</div>
@@ -571,9 +572,9 @@
 
 					<div class="quize-foot">
 						<div class="progress">
-							<div class="progress-info">Готово: <span>100%</span></div>
+							<div class="progress-info">Готово: <span>40%</span></div>
 							<div class="progress-bar">
-								<div class="track" style="width: 100%;"></div>
+								<div class="track" style="width: 40%;"></div>
 							</div>
 						</div>
 
@@ -583,7 +584,7 @@
 					</div>
 				</div>
 
-				<aside>
+				<!-- <aside>
 					<div class="person">
 						<div class="inner">
 							<div class="avatar">
@@ -598,30 +599,14 @@
 
 						<div class="talk">
 							<div class="inner">
-								<p>Кава, чай та PS4... Що може буди краще?</p>
+								<p>Можливість кар’єрного росту та стабільна заробітня плата</p>
 							</div>						
 						</div>
 					</div>
-					
-					<!-- <div class="bonus">
-						<div class="wrap">
-							<div class="bonus-item">
-								<img src="img/gift.png" alt="">
-								<p>2 додаткових заняття при <b>купівлі</b> абонементу</p>
-								<span class="ic-lock"></span>						
-							</div>
-
-							<div class="bonus-item">
-								<img src="img/gift.png" alt="">
-								<p>2 консультації <b>за ціною однієї.</b> Приходьте з рідними!</p>
-								<span class="ic-lock"></span>
-							</div>
-						</div>					
-					</div> -->
-				</aside>
+				</aside> -->
 			</div>
 		</div>
-		<!-- // STEP 7 -->
+		<!-- // STEP 8 -->
 
 		<!-- FINISH -->
 		<div class="quize-finish quize-animation">
@@ -630,26 +615,9 @@
 					<div class="content">
 						<h3>Не втрачай свій шанс! Залишай свій контакт</h3>
 						<p>Та ми зв'яжемось з вами протягом 10 хвилин</p>
-
-						<!-- <div class="bonus">
-							<p><b>ПОДАРУНКИ</b> ПІСЛЯ ПРОХОДЖЕННЯ ТЕСТУ:</p>
-							<div class="wrap">
-								<div class="bonus-item">
-									<img src="img/gift.png" alt="">
-									<p>2 додаткових заняття при <b>купівлі</b> абонементу</p>
-									<span class="ic-lock"></span>						
-								</div>
-
-								<div class="bonus-item">
-									<img src="img/gift.png" alt="">
-									<p>2 консультації <b>за ціною однієї.</b> Приходьте з рідними!</p>
-									<span class="ic-lock"></span>
-								</div>
-							</div>					
-						</div> -->
 					</div>
 
-					<div class="form-style">
+					<div action="#" class="form-style">
 						<!-- ?utm_source=sourse&utm_medium=medium&utm_campaign=compaing&utm_term=term&utm_content=cotnent -->
 						<?php if (isset($_GET['utm_source'])) : ?>
 							<input type="hidden" name="utm_source" value="<?= $_GET['utm_source'] ?>">
@@ -679,20 +647,13 @@
 						</label>
 
 						<label>
-							<div class="label">ВВЕДІТЬ EMAIL</div>
-							<div class="input email">
-								<input type="email" name="email" required placeholder="mail@example.com">
-							</div>
-						</label>
-
-						<label>
 							<div class="label">ВВЕДІТЬ ТЕЛЕФОН</div>
 							<div class="input tel">
 								<input type="tel" name="tel" required placeholder="Введіть телефон *">
 							</div>
 						</label>
 
-						<button class="quize-btn"><span>Отримати</span></button>
+						<button class="quize-btn"><span>Відправити</span></button>
 					</div>
 				</div>
 			</div>
@@ -704,26 +665,19 @@
 	<div class="quize-success quize-animation <?= ($success) ? 'quize-fade' : ''; ?>">
 		<h2>Дякуємо! 👏</h2>
 		<p>Найближчим часом із вами зв'яжеться наш менеджер.</p>
-		<!-- <div class="bonus">
-			<p><b>ПОДАРУНКИ</b> ПІСЛЯ ПРОХОДЖЕННЯ ТЕСТУ:</p>
-			<div class="wrap">
-				<div class="bonus-item">
-					<img src="img/gift.png" alt="">
-					<p>2 додаткових заняття при <b>купівлі</b> абонементу</p>
-					<span class="ic-lock"></span>						
-				</div>
-
-				<div class="bonus-item">
-					<img src="img/gift.png" alt="">
-					<p>2 консультації <b>за ціною однієї.</b> Приходьте з рідними!</p>
-					<span class="ic-lock"></span>
-				</div>
-			</div>
-
-			<a href="/">На головну</a>						
-		</div> -->
+		<a href="/">На головну</a>
 	</div>
 	<!-- SUCCESS -->
+
+	<!-- SUCCESS CLOSE -->
+	<div class="quize-successclose quize-animation">
+		<div class="wrap">
+			<h2>Ты не подходишь</h2>
+			<p>Удачи тебе в поиске работы! Ты нам не интересен!</p>
+			<a href="/">На главную</a>
+		</div>
+	</div>
+	<!-- // SUCCESS CLOSE -->
 </div>
 
 <script src="js/main.js"></script>
